@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import Home from './components/Home/Home';
 import './App.css';
@@ -10,9 +10,10 @@ function App() {
       <header className="App-header">
         
         <p>
-          Dealersoft working bitch
+          Dealersoft jhola bitch
         </p>
-        <Router>
+
+        {/* <Router>
 
           <Switch>
 
@@ -22,7 +23,7 @@ function App() {
           
           </Switch>
 
-        </Router>
+        </Router> */}
         
         <a
           className="App-link"
