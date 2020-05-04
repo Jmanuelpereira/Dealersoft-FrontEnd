@@ -7,33 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Dealersoft jhola bitch
-        </p>
 
-        {/* <Router>
-
-          <Switch>
-
-`           <Route exact path='/' component={Home} />
-            <Route exact path='/signup-page'  />
-            <Route exact path='/private'  />`
-          
-          </Switch>
-
-        </Router> */}
-        
-        <a
-          className="App-link"
-          href="https://gripert.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1 class="display-3">Dealer soft perro</h1>
+    
     </div>
   );
 }
