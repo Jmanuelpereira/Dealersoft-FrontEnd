@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 
-    <h1 class="display-3">Dealer soft perro</h1>
+    <h1 class="display-3">Dealer soft perro andando</h1>
     
     </div>
   );
