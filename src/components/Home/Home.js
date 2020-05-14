@@ -17,7 +17,8 @@ const Home = () => {
           </div>
         </section>
 
-        <Listing />
+        <Listing make="Leuxus"/>
+        <Listing make="Toyota"/>
 
 
 
