@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
+import { render } from '@testing-library/react';
+
+class App extends Component {
 
 
-function App() {
+  //
+
+
+
+
+
+
+render() {
   return (
     <div className="App">
         <header>
@@ -15,20 +25,16 @@ function App() {
           
         </header>
 
-        <main role="main">
+        <main role="main" class="">
          <Home />
 
         </main>
 
        
-           
-
-               
-
-       
-    
     </div>
   );
+
+  }
 }
 
 export default App;
